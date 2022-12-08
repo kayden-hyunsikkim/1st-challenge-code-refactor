@@ -23,6 +23,7 @@ header h1 {
 }
 
 /*changed selector name which is related to give unique id name to span element because it is unique*/
+/*I gaved id because it is only one in html*/
 #seo {
     color: #d9dcd6;
 }
@@ -94,7 +95,7 @@ aside {
 }
 
 /*merged three selectors to make code shorter and avoid repetition*/
-.benefit-lead, .benefit-brand, .benefit-cost  {
+aside div {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -108,7 +109,7 @@ aside div h3 {
 }
 
 /*gave unipue id(benefit-img) to html and merged three selectors to make code shorter and avoid repetition*/
-#benefit-imgs img {
+aside div img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
